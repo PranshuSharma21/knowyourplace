@@ -24,5 +24,5 @@ Know Your Place is a web application that allows users to explore historical inf
 - Internet Archive
 
 ##THIS IS NOT 100% ACCURATE 
-##We had limited time to prepare this so it accurately works on major cities across the globe and capitals 
-##For best use please make sure to put a prior date if you want accurate news
+We had limited time to prepare this so it accurately works on major cities across the globe and capitals 
+For best use please make sure to put a prior date if you want accurate news
