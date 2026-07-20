@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link href="https://app.unpkg.com/maplibre-gl@4.7.1/files/dist/maplibre-gl.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/themes/dark.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://app.unpkg.com/maplibre-gl@4.7.1/files/dist/maplibre-gl.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    </head>
+    
+    
+    <body>
+    <header>
+        <nav>
+            <div class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            </div>    
+        <div class="nav-right">
+            <input 
+                   type="text"
+                   id="searchBox"
+                   placeholder="Search any city, country or landmark">
+            <button id="searchBtn">Search</button>
+        </div>
+        </nav>
+        </header>
+    
+<div id="map">
+    <aside id="sidebar">
+    <div class="location">
+        <h2>
+        No Location Selected
+        </h2>
+        <p id="countryName">
+        Search or click on the map
+        </p>
+        <p id="coordinates">
+        Latitude: --
+        <br>
+        Longitude:--
+        </p>
+    </div>
+    </aside>   
+        
+        
+</div>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
